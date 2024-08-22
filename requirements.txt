@@ -1,0 +1,5 @@
+wandb
+fastai
+pandas
+scikit-learn
+ipython
