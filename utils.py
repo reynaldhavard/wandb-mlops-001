@@ -8,6 +8,14 @@ import params
 CLASS_INDEX = {v: k for k, v in params.BDD_CLASSES.items()}
 
 
+def t_or_f(arg):
+    ua = str(arg).upper()
+    if "TRUE".startswith(ua):
+        return True
+    else:
+        return False
+
+
 def iou_per_class(inp, targ):
     "Compute iou per class"
     iou_scores = []
