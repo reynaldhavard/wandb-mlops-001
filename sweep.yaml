@@ -29,4 +29,7 @@ parameters:
   arch:
     values:
       - 'resnet18'
+      - 'convnext_tiny'
       - 'regnet_x_400mf'
+      - 'mobilenet_v3_small'
+      
